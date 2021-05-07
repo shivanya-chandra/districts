@@ -1,0 +1,16 @@
+{
+  "name": "express-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Cood.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.6"
+  }
+}
