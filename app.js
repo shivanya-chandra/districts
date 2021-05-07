@@ -15,5 +15,5 @@ let districts = [];
 })();
 
 app.get('/', (req, res) => {
-    res.send(districts)
+    res.json(districts)
 })
