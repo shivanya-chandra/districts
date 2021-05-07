@@ -4,9 +4,10 @@ const { Parser } = require('json2csv');
 const express = require('express');
 const app = express();
 
-app.listen(3000, () => {
-    console.log('App is listening');
-})
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT);
+
 let districts = [];
 
 (async () => {
